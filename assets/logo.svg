@@ -1,0 +1,64 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Boi Wonder Entertainment emblem">
+  <defs>
+    <radialGradient id="bwGold" cx="50%" cy="42%" r="60%">
+      <stop offset="0%" stop-color="#F6D372"/>
+      <stop offset="55%" stop-color="#E3B23C"/>
+      <stop offset="100%" stop-color="#9A6E1A"/>
+    </radialGradient>
+    <linearGradient id="bwSilver" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#B9B2A4"/>
+    </linearGradient>
+    <radialGradient id="bwDisc" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1b1812"/>
+      <stop offset="78%" stop-color="#0a0907"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+  </defs>
+
+  <!-- vinyl disc -->
+  <circle cx="60" cy="60" r="56" fill="url(#bwDisc)" stroke="#2a2418" stroke-width="1.2"/>
+  <g fill="none" stroke="#2a2418" stroke-opacity="0.7">
+    <circle cx="60" cy="60" r="50"/><circle cx="60" cy="60" r="46"/>
+    <circle cx="60" cy="60" r="42"/><circle cx="60" cy="60" r="38"/>
+  </g>
+
+  <!-- gold sunburst behind figure -->
+  <path d="M60 24 C 78 24, 92 40, 92 60 C 92 78, 78 90, 60 92 C 60 70, 60 46, 60 24 Z"
+        fill="url(#bwGold)" opacity="0.16"/>
+  <circle cx="60" cy="58" r="30" fill="url(#bwGold)" opacity="0.10"/>
+
+  <!-- red cape -->
+  <path d="M72 54 C 86 56, 92 70, 86 84 C 80 78, 74 72, 70 66 Z" fill="#C8102E"/>
+  <path d="M72 54 C 84 57, 88 69, 84 80 L 71 64 Z" fill="#9b0c23"/>
+
+  <!-- head -->
+  <circle cx="60" cy="50" r="14" fill="#171513"/>
+  <path d="M48 44 a12 12 0 0 1 24 0 z" fill="#0e0c0a"/>
+  <!-- gold shades -->
+  <circle cx="55" cy="50" r="4.4" fill="none" stroke="url(#bwGold)" stroke-width="1.8"/>
+  <circle cx="65" cy="50" r="4.4" fill="none" stroke="url(#bwGold)" stroke-width="1.8"/>
+  <line x1="59.4" y1="50" x2="60.6" y2="50" stroke="url(#bwGold)" stroke-width="1.4"/>
+
+  <!-- body / chest with B medallion -->
+  <path d="M50 64 q10 -7 20 0 l-2 16 q-8 4 -16 0 z" fill="#171513"/>
+  <circle cx="60" cy="71" r="4.6" fill="url(#bwGold)"/>
+  <text x="60" y="73.6" text-anchor="middle" font-family="Georgia, serif" font-size="6"
+        font-weight="700" fill="#0a0907">B</text>
+
+  <!-- raised arm + microphone -->
+  <path d="M70 60 q9 -4 11 -12" fill="none" stroke="#171513" stroke-width="5" stroke-linecap="round"/>
+  <rect x="78" y="40" width="6.4" height="9" rx="3.2" fill="url(#bwSilver)" transform="rotate(18 81 44)"/>
+  <line x1="80.5" y1="49" x2="82.5" y2="55" stroke="url(#bwGold)" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- music notes -->
+  <g fill="url(#bwGold)">
+    <circle cx="34" cy="40" r="3"/><rect x="36.4" y="29" width="1.6" height="11"/>
+    <path d="M36.4 29 q6 1 7 5 q-4 -2 -7 -1 z"/>
+    <circle cx="86" cy="34" r="2.4"/><rect x="87.8" y="25" width="1.3" height="9"/>
+  </g>
+
+  <!-- center hole + gold rim -->
+  <circle cx="60" cy="60" r="56" fill="none" stroke="url(#bwGold)" stroke-width="1.6" opacity="0.85"/>
+  <circle cx="60" cy="60" r="2.2" fill="#000"/>
+</svg>
